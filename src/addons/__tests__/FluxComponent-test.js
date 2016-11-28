@@ -225,7 +225,7 @@ describe('FluxComponent', () => {
 
     expect(
       TestUtils.findRenderedDOMComponentWithTag.bind(TestUtils, tree, 'span')
-    ).to.throw('Did not find exactly one match for tag:span');
+    ).to.throw('Did not find exactly one match (found: 0) for tag:span');
   });
 
   it('allows for nested FluxComponents', () => {
