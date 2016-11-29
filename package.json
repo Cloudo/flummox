@@ -9,7 +9,6 @@
   },
   "homepage": "https://github.com/acdlite/flummox/blob/latest/README.md",
   "bugs": "https://github.com/acdlite/flummox/issues",
-  "files": ["lib"],
   "scripts": {
     "test": "make fast-js test",
     "prepublish": "npm run test"
